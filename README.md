@@ -84,8 +84,6 @@ Create a `.env` file in the same folder:
 OPENAI_API_KEY=your-key-here
 ```
 
-**Important:** run this from a terminal, not a Jupyter notebook. CrewAI deliberately refuses to run synchronously whenever it detects an active event loop, which Jupyter always has running in the background. A terminal has no such loop, so it runs cleanly there.
-
 ```bash
 python run_prior_auth.py
 ```
