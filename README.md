@@ -71,8 +71,12 @@ prior-authorization-multi-agent/
 
 ## Setup
 
+Requires Python 3.10–3.13 (CrewAI does not support 3.9 or 3.14+).
+
 ```bash
-python -m pip install crewai langchain-openai python-dotenv pypdf
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 Create a `.env` file in the same folder:
