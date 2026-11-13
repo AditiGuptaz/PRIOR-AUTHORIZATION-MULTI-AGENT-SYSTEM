@@ -1,0 +1,4 @@
+crewai
+python-dotenv
+nest-asyncio
+pypdf

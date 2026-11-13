@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+run_output.txt
+.DS_Store
+
+
+
+
+
+
+
