@@ -112,7 +112,7 @@ Of the 4 mock requests, 2 (PA001, PA003) pass review on the first attempt — in
 ## Current Limitations
 
 - **The loop only retains the final attempt.** A more complete audit trail would log every rejected draft and the specific feedback at each step, not just the last one.
-- **The Policy Checker receives the entire policy document directly**, rather than retrieving relevant sections through vector search the way the first project does. This works fine for one short policy, but wouldn't scale to a payer whose policies cover hundreds of procedures.
+- **The Policy Checker receives the entire policy document directly**, rather than retrieving relevant sections through vector search. This works fine for one short policy, but wouldn't scale to a payer whose policies cover hundreds of procedures.
 - **The system is built around exactly 4 fixed criteria**, specific to lumbar spine MRI. Adapting it to a different procedure (a knee MRI, for example) would require rewriting both the policy document and the extraction schema — not just swapping a number, since a different procedure's criteria may differ entirely in content and even in count.
 
 ## Why I Built This
@@ -121,4 +121,4 @@ After building a single-agent system first, I wanted to deliberately learn when 
 
 ---
 
-*All data in this project is synthetic, created for educational and portfolio purposes only.*
+*All data in this project is synthetic only*
